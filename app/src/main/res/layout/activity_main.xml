@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="155dp"
-        android:layout_height="136dp"
+        android:layout_width="176dp"
+        android:layout_height="164dp"
         android:layout_marginTop="28dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,16 +22,17 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome To Realmadrid"
+        android:text="Welcome To
+         UserProfileRegistration"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="27sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.274" />
+        app:layout_constraintVertical_bias="0.254" />
 
     <Button
         android:id="@+id/profileListBtn"
@@ -41,6 +42,8 @@
         android:backgroundTint="#00000000"
         android:text="Profile List"
         android:textColor="@color/black"
+        app:strokeColor="#9C27B0"
+        app:strokeWidth="1dp"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView"
@@ -48,7 +51,6 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0"
-        app:strokeColor="#9C27B0"
-        app:strokeWidth="1dp" />
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
